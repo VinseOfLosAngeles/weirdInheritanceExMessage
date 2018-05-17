@@ -1,0 +1,13 @@
+package message;
+/**
+ *
+ * @author b113student03
+ */
+public class ExcitedMessage extends Message {
+   	
+
+	public ExcitedMessage(String line)
+  {
+     super(line + "!!");
+  }
+}
