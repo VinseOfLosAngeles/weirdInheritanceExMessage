@@ -1,0 +1,13 @@
+package message;
+
+/**
+ *
+ * @author b113student03
+ */
+public class MessageTester {
+    public static void main(String[] args)
+    {
+    ExcitedMessage greeting = new ExcitedMessage("Hello");
+System.out.print(greeting.getMessage());// will print "Hello!!"
+    }
+}
