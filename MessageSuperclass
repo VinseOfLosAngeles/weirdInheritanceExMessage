@@ -1,0 +1,20 @@
+package message;
+
+/**
+ *
+ * @author b113student03
+ */
+public class Message
+{
+   private String value;
+
+   public Message(String initial)
+   {
+      value = initial;
+   }
+
+   public String getMessage()
+   {
+      return value;
+   }
+}
